@@ -1,0 +1,90 @@
+.library-book {
+    height: 332px;
+    position: relative;
+    width: 1082px;
+}
+  
+.library-book .book-cover {
+    background-color: #d9d9d9;
+    height: 332px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 248px;
+}
+  
+.library-book .overlap-group {
+    height: 93px;
+    left: 288px;
+    position: absolute;
+    top: -1px;
+    width: 128px;
+}
+  
+.library-book .text-wrapper-2 {
+    color: #000000;
+    font-family: "Kadwa", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    height: 72px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 128px;
+}
+  
+.library-book .text-wrapper-3 {
+    color: #000000;
+    font-family: "Kadwa", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    height: 42px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 51px;
+    width: 102px;
+}
+  
+.library-book .rectangle {
+    border: 1px solid;
+    border-color: #000000;
+    height: 164px;
+    left: 288px;
+    position: absolute;
+    top: 152px;
+    width: 794px;
+}
+  
+.library-book .text-wrapper-4 {
+    color: #000000;
+    font-family: "Kadwa", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    height: 30px;
+    left: 288px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 110px;
+    width: 194px;
+}
+  
+.library-book .text-wrapper-5 {
+    color: #000000;
+    font-family: "Kadwa", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    height: 28px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 357px;
+    white-space: nowrap;
+    width: 101px;
+}
+  

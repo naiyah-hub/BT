@@ -1,0 +1,22 @@
+.want-to-read-tag {
+    background-color: #e0ceff;
+    border: 1px solid #1d6464;
+    border-radius: 30px;
+    height: 47px;
+    position: relative;
+    width: 185px;
+}
+  
+.want-to-read-tag .text-wrapper-8 {
+    color: #000000;
+    font-family: "Kadwa", Helvetica, fantasy;
+    font-size: 24px;
+    font-weight: 400;
+    height: 31px;
+    left: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    width: 155px;
+}
+  

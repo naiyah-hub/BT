@@ -3,30 +3,52 @@ import AddFeelingsTag from './components/AddFeelingsTag/AddFeelingsTag'
 import AddTag  from './components/AddTag/AddTag'
 import CompletedTag from './components/CompletedTag/CompletedTag'
 import CurrentlyReading from './components/CurrentlyReading/CurrentlyReading'
-//import { Navbar } from './components/RantsTaskBar/RantsTaskBar'
+//import NavBar from './components/TaskBar/TaskBar'
 import { SearchBar } from './components/SearchBar/SearchBar'
 import Filter from './components/Filter/Filter'
 import LibraryBook from './components/LibraryBook/LibraryBook'
 import WantToReadTag from './components/WantToReadTag/WantToReadTag'
-//import { BrowserRouter } from 'react-router-dom'
+import Search from './screens/Search'
+import { Route, Routes } from 'react-router-dom'
+
 import './App.css'
+
+function CustomLink({href}) {
+  const path = window.location.pathname
+  return(
+    <li className={path === href ? "active" : ""}>
+      <a href={href}>{Children}</a>
+    </li>
+    
+  )
+  
+}
 
 function NavBar() {
   return (
     <nav className="rants-task-bar">
         <img className="image" alt="Image" src= "https://img.icons8.com/clouds/100/books.png" />
+        
+        {/* <div className="link-style"> */}
         <a href="/" className="site-name">BT</a>
         <ul>
           <li>
             <a href="/Library" className="lib-title">Library</a>
           </li>
-          </ul>
-
-          <ul>
+        </ul>
+          
+        <ul>
           <li>
             <a href="/Rant" className="rant-title">Rant</a>
           </li>
         </ul>
+
+        <ul>
+          <li>
+            <a href="/Search" className="search-title">Search</a>
+          </li>
+        </ul>
+        {/* </div> */}
     </nav>
     
   );
@@ -35,8 +57,8 @@ function NavBar() {
 export default function App() {
   return (
     <>
-    
-        <div className='library'>
+      {/* <BrowserRouter> */}
+      <div className='library'>
             
             <div className="div-2"> 
             <NavBar className="NavBar" />
@@ -76,7 +98,7 @@ export default function App() {
                  
             </div>
  
-          </div>  
+          </div> 
           
            
           {/* <CurrentlyReading /> 
@@ -90,7 +112,7 @@ export default function App() {
           <CompletedTag />
 
           <Filter /> */} 
-      
+      {/* </BrowserRouter> */}
     </>
   );
 }

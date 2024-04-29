@@ -1,0 +1,46 @@
+.book-cover-rant {
+    height: 374px;
+    position: relative;
+    width: 181px;
+  }
+  
+  .book-cover-rant .div {
+    background-color: #d9d9d9;
+    height: 272px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 181px;
+  }
+  
+  .book-cover-rant .text-wrapper {
+    color: #000000;
+    font-family: "Kadwa", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    height: 40px;
+    left: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 297px;
+    white-space: nowrap;
+    width: 136px;
+  }
+  
+  .book-cover-rant .text-wrapper-2 {
+    color: #000000;
+    font-family: "Kadwa", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    height: 36px;
+    left: 43px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 337px;
+    width: 95px;
+  }
+  

@@ -1,0 +1,6 @@
+.rant-box-wrapper {
+    height: 393px;
+    overflow-y: scroll;
+    position: relative;
+    width: 272px;
+  }

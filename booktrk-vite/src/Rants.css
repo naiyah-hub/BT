@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+} 
+
+.box {
+    height: 992px;
+    width: 984px;
+  }
+  
+.box .group {
+    height: 992px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 984px;
+    /* background-color: aquamarine; */
+}
+  
+.box .overlap-group {
+    height: 992px;
+    position: relative;
+}
+  
+.box .rant-box-instance {
+    left: 54px !important;
+    position: absolute !important;
+    top: 41px !important;
+}
+  
+.box .design-component-instance-node {
+    left: 657px !important;
+    position: absolute !important;
+    top: 41px !important;
+}
+  
+.box .rant-box-2 {
+    left: 657px !important;
+    position: absolute !important;
+    top: 537px !important;
+}
+  
+.box .rant-box-3 {
+    left: 54px !important;
+    position: absolute !important;
+    top: 537px !important;
+}
+  
+.box .book-cover-rant-group {
+    left: 401px !important;
+    position: absolute !important;
+    top: 261px !important;
+}
+  
+.box .rectangle-2 {
+    border: 1px solid;
+    border-color: #000000;
+    height: 992px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 984px;
+}
+  
+

@@ -9,7 +9,7 @@ function LibraryBook (){
         <div className="text-wrapper-2">Title</div>
         <div className="text-wrapper-3">Author</div>
       </div>
-      <div className="rectangle" />
+      <div className="rectangle">This book is about...</div>
       <div className="text-wrapper-4">Description</div>
       <div className="text-wrapper-5">Tags:</div>
     </div>

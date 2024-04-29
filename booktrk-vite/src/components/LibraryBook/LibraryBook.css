@@ -51,6 +51,7 @@
   
 .library-book .rectangle {
     border: 1px solid;
+    font-family: "Kadwa", Helvetica;
     border-color: #000000;
     height: 164px;
     left: 288px;

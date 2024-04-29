@@ -9,9 +9,13 @@ function Search(){
       <div className="search">
         <div className="search-container">
           <SearchBar />
-          <div className="results">Search Results</div>
+          {/* <div className="results">Search Results</div> */}
         </div>
+
+        <button className="submit">Submit</button>
+        
       </div>
+      
     </>
   )
 

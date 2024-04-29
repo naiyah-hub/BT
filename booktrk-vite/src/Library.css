@@ -134,6 +134,12 @@ body{
 }
 
 
+.library .div-2 .overlap .feelings{
+    left: 160px !important;
+    position: absolute !important;
+    top: 339px !important;
+}
+
 .library .currently-reading-instance {
     left: 97px !important;
     position: absolute !important;

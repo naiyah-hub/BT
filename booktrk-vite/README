@@ -1,5 +1,10 @@
 Book Tracker Website
 
+To Run:
+    - yarn 
+    - yarn dev
+
+
 Struggled With:
     Linking pages together with item is clicked
-    Implementing API
+    

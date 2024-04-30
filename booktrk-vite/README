@@ -1,8 +1,11 @@
 Book Tracker Website
 
 To Run:
-    - yarn 
     - yarn dev
+    - if not working: delete yarn.lock file and node_modules folder (these hold the depenecies)
+        - then: 
+            - yarn
+            - yarn dev 
 
 
 Struggled With:

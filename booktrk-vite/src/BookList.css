@@ -1,0 +1,36 @@
+.list{
+    display: grid;
+}
+
+.cards{
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    /* border-radius: 10px; */
+    overflow: hidden;
+}
+
+img{
+    width: 150px;
+    
+}
+.book-descr{
+    height: 130px;
+    padding: 10px;
+    
+}
+
+.book-descr h2{
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.book-descr h3, p{
+    font-weight: 300;
+}
+
+.book-descr h3{
+    color: #6c757d;
+    font-size: 1em;
+    padding: 10px;
+}

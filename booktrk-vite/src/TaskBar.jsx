@@ -1,8 +1,5 @@
 import React, { Children } from "react";
-
-//import Search from "../../pages/Search";
 import { Link, Outlet, useMatch, useResolvedPath } from "react-router-dom";
-//import App from "./App";
 import "./TaskBar.css";
 import styled from "styled-components";
 
@@ -30,6 +27,7 @@ export default function NavBar() {
           <div className="site-name">Search</div>
           {/* </div> */}
       </nav>
+      
       <Outlet></Outlet>
       </>
     );
